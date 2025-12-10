@@ -1,0 +1,122 @@
+/* --- Global Reset (Boilerplate) --- */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* --- Layout Component Styles --- */
+.app-container {
+    /* Full viewport height tak extend ho */
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column; /* Header ko top par, baaki content uske neeche */
+}
+
+.content-wrapper {
+    /* Header ke neeche ka area - Sidebar aur Main Content yahan aayenge */
+    display: flex;
+    flex: 1; /* Bacha hua saara space use kare */
+}
+
+/* --- Header Component Styles --- */
+.header {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Halka shadow */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+/* --- Sidebar Component Styles --- */
+.sidebar {
+    width: 250px; /* Sidebar ki fixed width */
+    background-color: #e0e0e0; 
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    color: #333;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    color: #221f1f;
+}
+
+.sidebar li {
+    padding: 8px 0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.sidebar li:hover {
+    background-color: #411212;
+    padding-left: 5px;
+    color: rgb(231, 214, 214);
+    border-radius: 10px;
+}
+
+/* --- Main Content Component Styles --- */
+.main-content {
+    flex-grow: 1; /* Bacha hua saara horizontal space le lega */
+    padding: 20px 30px;
+    background-color: white;
+}
+
+.main-content h2 {
+    color: #4CAF50;
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+/* --- NoteCard Component Styles (for listing notes) --- */
+.note-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.note-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hover par thoda utha hua dikhe */
+    border-color: #4CAF50;
+}
+
+.note-card-title {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.2rem;
+    white-space: nowrap; /* Title ek line mein rahe */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Jab title lamba ho toh '...' dikhe */
+}
+
+.note-card-content {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    max-height: 40px; /* Content ki height limit karein */
+    overflow: hidden;
+}
+
+.note-card-date {
+    display: block;
+    font-size: 0.75rem;
+    color: #999;
+}
