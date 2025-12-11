@@ -1,0 +1,16 @@
+/* yha par header ki css h or isme hm btn ko css alg denge to dusri file ki css m koi impacgt nhi pdega
+hm isko import kar lenge header.jsx me*/
+
+
+.header{
+  background-color: blue;
+  padding: 20px;
+  text-align: center; 
+}
+.btn{
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
