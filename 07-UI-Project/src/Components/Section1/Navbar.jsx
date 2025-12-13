@@ -1,11 +1,18 @@
 import React from 'react'
+import LeftNavContent from './LeftNavContent'
+import RightNavcontent from './RightNavcontent'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='bg-amber-400'>
+      <header>
+
         <nav>
-            Hello Im navbar
+            <LeftNavContent />
+            <RightNavcontent />
         </nav>
+
+      </header>
       
     </div>
   )
