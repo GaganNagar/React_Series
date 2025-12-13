@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from './Navbar'
-import MainContent from './MainContent'
+import Navbar from './Navbar/Navbar'
+
 
 const Section1 = () => {
   return (
     <div className='h-screen w-full bg-blue-950 ' >
       <Navbar />
-      <MainContent />
+      
     </div>
   )  
 }

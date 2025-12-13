@@ -1,5 +1,5 @@
 import React from 'react'
-import Mouse from ''
+import Mouse from 'lucide-react'
 
 const Logo = () => {
   return (
@@ -8,5 +8,4 @@ const Logo = () => {
     </div>
   )
 }
-
 export default Logo

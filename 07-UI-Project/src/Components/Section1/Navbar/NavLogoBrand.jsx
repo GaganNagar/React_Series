@@ -4,7 +4,7 @@ import Logo from './Logo'
 
 const NavLogoBrand = () => {
   return (
-    <div>
+    <div className='flex justify-between items-center '>
         <Logo />
       <BrandName />
     </div>

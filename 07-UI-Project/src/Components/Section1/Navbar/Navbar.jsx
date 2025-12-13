@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className='bg-amber-400'>
       <header>
 
-        <nav>
+        <nav >
             <LeftNavContent />
             <RightNavcontent />
         </nav>
