@@ -4,7 +4,6 @@ const Card = (props) => {
   return (
     <div className='card'>
       <div>
-
         <div className="top">
           <img src={props.companyLogo} alt="" />
           <button>Save <Bookmark size={12} /></button>

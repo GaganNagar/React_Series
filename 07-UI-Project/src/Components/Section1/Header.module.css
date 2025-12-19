@@ -1,0 +1,17 @@
+a{
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #0b882a;
+    
+}
+header{
+    padding: 20px;
+}
+.BrandName{
+    padding: 10px;
+}
+.rightContainer{
+    padding: 20px;
+}
