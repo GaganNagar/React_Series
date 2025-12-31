@@ -16,7 +16,7 @@ function App() {
 
 
     // ab ham sikhenge ki useState jo vo obejct k sath kaise kam krti h
-    //hame karna h name= ram ,age 23 to hm, object ko sread kar lenge
+    //hame karna h name= ram ,age 23 to hm, object ko spread kar lenge
     const obj = { ...count }
     obj.user = "ram"
     obj.age = 23;

@@ -6,7 +6,6 @@ const Button = () => {
   return (
     <div>
         <button className={styles.btn}> Click </button>
-      
     </div>
   )
 }
