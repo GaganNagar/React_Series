@@ -48,7 +48,7 @@ function App() {
           <button
            onClick={()=>{
             dlt(index)
-            }}>
+            }}> 
             delete User</button>
         </div>
       ))}
