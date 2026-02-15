@@ -27,7 +27,6 @@ const Card = (props) => {
         <button>Apply Now</button>
 
       </div>
-
     </div>
   )
 }

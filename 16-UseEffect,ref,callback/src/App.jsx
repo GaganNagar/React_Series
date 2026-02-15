@@ -11,14 +11,12 @@ function App() {
     setCount(c => c + 1);
   }, []);
 
-
   
   //ye jo h hmara normal function hai jo button click par chl rha or state chnge ho rhi re render ho rhi 
   // function counter(){
   //   setCount((count) => count + 1)
   //   console.log("counter++")
   // }
-
 
   //ye side effects ko smbhal tha h jese hame count kaa data count change hone p local storage me save karvana
  useEffect(() => {

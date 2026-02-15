@@ -15,8 +15,6 @@ function App() {
         <main className="main-area">
           <h1>Welcome back, Gagan 👋</h1>
           <p>Your React placement series has officially started.</p>
-
-          
           <Card />
         </main>
       </div>

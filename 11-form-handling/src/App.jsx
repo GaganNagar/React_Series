@@ -13,7 +13,7 @@ const formhandler=(e)=>{  //accept value
     <>
       <form onSubmit={(e)=>{    // yha value accept ki form ki 
         formhandler(e)     //yha se value pas ki form k andar jo bhi thi 
-      }}>
+      }}> 
         <input type="text" />
         <button type='submit'>submit</button>
       </form>
